@@ -1,0 +1,10 @@
+{
+    "name": "vietdv/firstpackage",
+    "description": "This package just to show timezone",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Vietdv\\FirstPackage\\" : "src"
+        }
+    }
+}
