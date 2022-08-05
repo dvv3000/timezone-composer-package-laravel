@@ -10,6 +10,6 @@ class TimezonesController extends Controller
     {
         $current_time = ($timezone) ? Carbon::now(str_replace('-', '/', $timezone))  : Carbon::now();
 
-        return view('timezones::time', ['current_time' => $current_time]);
+        return view('first-package::time', ['current_time' => $current_time]);
     }
 }
